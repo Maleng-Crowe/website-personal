@@ -1,0 +1,124 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <!-- Title of website -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- Start: font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap" rel="stylesheet">
+    <!-- end: font -->
+    <!-- Below is for the small screen, for the navigation -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="header-aero">
+    <nav>
+        <!-- Navigation of website -->
+        <div class="nav-links" id="navLinks">
+           <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="AerospaceAviation.html">Aerospace/Aviation</a></li>
+                <li><a href="RoboticsBiomedical.html">Robotics/Biomedical</a></li>
+                <li><a href="Automotive.html">Automotive</a></li>
+                <li><a href="Programming.html">Programming</a></li>
+                
+                <li id="contactLink"><a href="Contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+</section>
+    
+<section class="about-me"> 
+    <div class="aero" id="Toyota-1KZ-engine">
+        <h1>Toyota 1KZ engine</h1>
+    </div>
+
+</section>
+
+<section class="about-me">     
+    <div class="last">
+        <h1>summary</h1>
+        <p>I assisted in disassembling a 1KZ engine with my friend and learned practical aspects of engine mechanics. This included adjusting engine efficiency or torque by adding or removing components like injectors, adjusting camshaft timing, and eliminating EGR (Exhaust Gas Recirculation), among other techniques. The engine was later upgraded with a Mazda injector to enhance both efficiency and torque. This experience provided me with valuable workshop skills, a deeper understanding of thermodynamics, and insights into engine components.</p>
+    </div>
+</section>
+    
+<section class="about-me">     
+    <div class="aero">
+        <h1>Disassembling </h1>
+        <p>During the disassembly process (shown below), I gained valuable insights into the functions of engine components such as the Crankshaft, Camshaft, injectors, and various other parts. I learned how these components work together to drive engine performance and efficiency, understanding their roles in the combustion process. Assessing their wear and tear during disassembly provided a deeper understanding of their durability under different operating conditions and potential issues that could affect engine performance. Additionally, evaluating their quality allowed me to appreciate the importance of component reliability and adherence to manufacturing standards for ensuring engine longevity and optimal performance. This hands-on experience not only enhanced my mechanical knowledge but also sharpened my skills in diagnosing and maintaining engines effectively, preparing me for future challenges in automotive engineering and maintenance.</p>
+    </div>
+</section>  
+    
+<div class="double-engine">
+  <div class="bottom-block">
+    <img src="pdf/engine1.jpg" alt="bottom block ">
+  </div>
+  <div class="top-block">
+      <img src="pdf/engine3.jpg" alt="top block">
+  </div>
+</div>
+    
+<div class="single-engine">
+  <div class="crank-shaft">
+    <img src="pdf/engine2.jpg" alt="Centered Image">
+  </div>
+</div>    
+    
+<section class="about-me">     
+    <div class="aero">
+        <h1>Assembling/Start up</h1>
+        <p>Assembling the engine made me realize the complexity of each component, requiring precise torques to tighten bolts, accurate alignment of cylinders, timing of injectors, and careful attention to prevent dirt from contaminating lubricated bearings and other critical areas. This hands-on experience underscored the importance of meticulous attention to detail and adherence to manufacturer specifications to ensure the engine operates smoothly and efficiently. It gave me a perspective and understanding of mechanics, highlighting the importance of designing for repairability comparing to modern vehicles that are often challenging to repair due to extensive electronic systems and complex assemblies, sometimes requiring specialized tools.</p>
+    </div>
+</section>  
+    
+    
+ <div class="picture-of-assembly">
+    <div class="engine-finnished">
+        <img src="pdf/finnished%20engine.jpg" alt="\engine finnished">
+    </div>
+    <div class="trans-n-eng">
+        <img src="pdf/engine%20with%20transmission.jpg" alt="transmission and engine">
+    </div>
+</div>   
+    
+    
+<!-----------JavaScript for Toggle Menu
+<h3>Toyota 1KZ Engine</h3>
+            <p> Dissasambled and assembled a 1KZ Engine with my friend. Learnt indepth of how a engine works both practically and therioratically, and how to increase the efficiency, torque and rpm. In this case modyfying the 1KZ by adding a mazda injector so that the efficiency and the torque inceases.</p>------------>
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-400px";
+    }
+    let mybutton = document.getElementById("myBtn");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+</script>
+</body>
+</html>

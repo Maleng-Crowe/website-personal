@@ -1,0 +1,109 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <!-- Title of website -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- Start: font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap" rel="stylesheet">
+    <!-- end: font -->
+    <!-- Below is for the small screen, for the navigation -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="header-contact">
+    <nav>
+        <!-- Navigation of website -->
+        <div class="nav-links" id="navLinks">
+           <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="AerospaceAviation.html">Aerospace/Aviation</a></li>
+                <li><a href="RoboticsBiomedical.html">Robotics/Biomedical</a></li>
+                <li><a href="Automotive.html">Automotive</a></li>
+                <li><a href="Programming.html">Programming</a></li>
+                <li id="contactLink"><a href="Contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <div class="container">
+        <h5>Let's keep in contact !</h5>
+        <div class="contact-box">
+            <div class="contact-left-title">
+                <h6>Contact Details</h6>
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="dfde9f76-4808-4ceb-a150-4b0217206b70">
+                <div class="input-row">
+                    <div class="input-group">
+                        <label>Name</label>
+                        <input type="text" name="name" placeholder="Name">  
+                    </div>
+                    <div class="input-group">
+                        <label>Phone</label>
+                        <input type="text" name="phone" placeholder="Phone Number">  
+                    </div>
+                </div>
+                <div class="input-row">
+                    <div class="input-group">
+                        <label>Email</label>
+                        <input type="text" name="email" placeholder="Email">  
+                    </div>
+                    <div class="input-group">
+                        <label>Subject</label>
+                        <input type="text" name="subject" placeholder="Subject">  
+                    </div>
+                </div>
+                <div class="input-message">
+                    <label>Message</label>
+                    <textarea rows="9" name="message" placeholder="Your Message"></textarea>
+                </div>
+                <button type="submit">SEND</button>
+                
+            </form>
+            </div>
+            <div class="contact-right">
+                <h6>My Contact details</h6>
+                
+                <table>
+                    <tr>
+                        <td>Email:</td>
+                        <td>malengcrowe@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Phone:</td>
+                        <td>+64 027 504 9335</td>
+                    </tr>
+                
+                </table>
+            </div>
+        </div>
+    </div>
+    
+</section>
+    
+    
+    
+    
+    
+    
+<!-----------JavaScript for Toggle Menu
+<h3>Toyota 1KZ Engine</h3>
+            <p> Dissasambled and assembled a 1KZ Engine with my friend. Learnt indepth of how a engine works both practically and therioratically, and how to increase the efficiency, torque and rpm. In this case modyfying the 1KZ by adding a mazda injector so that the efficiency and the torque inceases.</p>------------>
+<script>
+    var navLinks = document.getElementById("navLinks");
+    
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-400px";
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,203 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <!-- Title of website -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- Start: font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap" rel="stylesheet">
+    <!-- end: font -->
+    <!-- Below is for the small screen, for the navigation -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    
+</head>
+<body>
+<section class="header-aero">
+    <nav>
+        <!-- Navigation of website -->
+        <div class="nav-links" id="navLinks">
+           <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="AerospaceAviation.html">Aerospace/Aviation</a></li>
+                <li><a href="RoboticsBiomedical.html">Robotics/Biomedical</a></li>
+                <li><a href="Automotive.html">Automotive</a></li>
+                <li><a href="Programming.html">Programming</a></li>
+                
+                <li id="contactLink"><a href="Contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+  
+</section>
+    
+<section class="about-me"> 
+    <div class="aero" id="Meltdown">
+        <h1>Meltdown (vex)</h1>
+    </div>
+
+</section>
+
+<section class="about-me">     
+    <div class="aero">
+        <h1>Summary</h1>
+        <p>Meltdown (VEX) is a non-competitive event where teams manufacture robots to accomplish various tasks and earn points. <a href="https://www.youtube.com/watch?v=dvDqEI7qO34">For more information on what is vex, link is here</a>. I help design and construct our robot for example helped with designing the catapult, robot chassis and did a small amount of C++. Building the robot and seeing it work was quite fun and a rewarding. The main challenges we faced were primarily with the catapult (shown below). This is the first robot I've ever made, and seeing it work is really cool.
+    </div>
+</section>
+    
+<section class="about-me">     
+    <div class="aero">
+        <h1>Planning</h1>
+        <p>During the planning stage, we initially assessed the competition area where the robot will compete (as shown below) and researched strategies used by other teams in past VEX competitions. We then established constraints, including a limit of six motors, ensuring the wings do not carry or grab the TriBalls (green balls), and considerations of size, among others. We decided on a configuration with 4 motors allocated to the wheels, 1 for the arm, and 1 dedicated to the wings.</p>
+    </div>
+</section> 
+<div class="map-meldown">
+    <img src="images/Planning%20-%20vex.jpg" alt="Map-meldown">
+</div>
+    
+<section class="about-me">     
+    <div class="aero">
+    <h1>Building - catapult</h1>
+    </div>
+</section> 
+    
+<section class="about-me">     
+        <div class="aero">
+        <p>Initially, we had a simple catapult design (shown to the left picture), but we realized it was too wide and needed more torque and RPM to shoot the ball to the other end of the field. To address this, we replaced the motor with one that had more torque but lower RPM than the previous one. We also added another gear: a smaller gear connected to the motor and the larger gear, and a larger gear connected to the catapult. This modification increased the torque and RPM.</p>
+    </div>
+    </section> 
+<section class="about-me">     
+    <div class="aero">
+        <p>Another issue we encountered was that the catapult moved slowly when launching the projectile because it had to move the motor. To solve this, we cut the gear so that only 3/4 of it was operational. This allowed the arm to launch the projectile without resistance and reset for the next rotation (shown to the right picture).</p>
+    </div>
+</section> 
+
+<section class="catapult">
+    <div class="old-catapult">
+        <img src="images/arm.jpg" alt="catapult-old">
+    </div>
+    <div class="new-catapult">
+        <img src="images/Arm1.jpg" alt="catapult-new">
+    </div>
+</section>  
+
+<section class="about-me">     
+    <div class="aero">
+    <h1>Building - Robot</h1>
+    </div>
+</section>     
+    
+<section class="about-me">     
+    <div class="aero">
+        <p>When building the robot, we started by constructing the chassis to determine the available space for the fins and catapult (shown bottom left). Once the catapult was completed, we installed it and added a gear mechanism to move the fins in and out, connected by string. The challenging part was managing all the loose wires and strings, which could get caught on the driving shaft or the gears connected to the motor. Additionally, we incorporated a feature with the fins (wood on the sides) to allow the robot to cross the middle. During the autonomous phase, the robot will push the triball forward into the net, which can work depending on the distance. The final build of the robot is shown in the bottom right.</p>
+    </div>
+</section> 
+    
+<section class="body-robot">
+    <div class="old-body">
+        <img src="images/Body.jpg" alt="catapult-old">
+    </div>
+    <div class="new-body">
+        <img src="images/Body1.jpg" alt="catapult-new">
+    </div>
+</section>      
+    
+<section class="about-me">     
+    <div class="aero">
+    <h1>Competition</h1>
+    </div>
+</section>      
+    
+<section class="about-me">     
+    <div class="aero">
+        <p>The competition was an incredible experience, and it was thrilling to control a robot. I was very excited to see how our hard work paid off. Below is a video of me in action, controlling and using the robot during the event. The video captures some of the challenges and successes we encountered, showcasing the robot’s performance and my interactions with it. Enjoy watching!</p>
+    </div>
+</section> 
+<div class="robot-video">
+    <video controls src="Assests/Robot-Video_me.mp4" alt="robot-video" class="centered-video"></video>
+</div>
+
+  
+<section class="about-me"> 
+    <div class="aero" id="Warman">
+        <h1>Warman - continuing</h1>
+    </div>
+</section>
+
+<section class="about-me">     
+    <div class="aero">
+        <h1>summary</h1>
+        <p>Warman is a robot manufacturing project undertaken by our team as part of our second-year Mechanical Engineering course. We have completed the planning stage and will provide further updates as the project progresses.</p>
+    </div>
+</section>
+    
+<section class="about-me"> 
+    <div class="aero" id="Robotic-prostetic-hand">
+        <h1>Robotic prostetic hand - continuing</h1>
+    </div>
+
+</section>
+
+<section class="about-me">     
+    <div class="aero">
+        <h1>summary</h1>
+        <p>The robotic prosthetic hand project, undertaken by UC Biomed, aims to provide temporary prosthetics to individuals in need for short-term use. I have just begun this project alongside the president of the Biomedical Club and will share more details as the project progresses.</p>
+    </div>
+</section>
+    
+<section class="about-me"> 
+    <div class="aero" id="Junkyard">
+        <h1>Junkyard - continuing</h1>
+    </div>
+
+</section>
+
+<section class="about-me">     
+    <div class="last">
+        <h1>summary</h1>
+        <p>In a team of two, we will build a robot to compete against other robots. I'll provide updates once it's completed.</p>
+    </div>
+</section>
+    
+    
+    
+<!-----------JavaScript for Toggle Menu
+<h3>Toyota 1KZ Engine</h3>
+            <p> Dissasambled and assembled a 1KZ Engine with my friend. Learnt indepth of how a engine works both practically and therioratically, and how to increase the efficiency, torque and rpm. In this case modyfying the 1KZ by adding a mazda injector so that the efficiency and the torque inceases.</p>------------>
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-400px";
+    }
+    let mybutton = document.getElementById("myBtn");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+</script>
+</body>
+</html>
