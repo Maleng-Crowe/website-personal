@@ -986,7 +986,7 @@ tr td{
     height: auto;
     width: 30%; 
     float: left; 
-    padding-left: 18%;
+    padding-left: 15%;
     padding-right: 0%; 
     padding-bottom: 0;
 }
@@ -998,7 +998,7 @@ tr td{
     width: 40%; 
     float: right; 
     padding-left: 0%;
-    padding-right: 10%;
+    padding-right: 8%;
     padding-bottom: 0;
 }
 
